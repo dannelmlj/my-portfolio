@@ -2,6 +2,8 @@ import { useContext } from "react"
 import ModeContext from "../../contexts/ModeContext"
 import { AspectRatio, Box, Center, Icon, Image, ListItem, Stack, Text, UnorderedList } from "@chakra-ui/react"
 import { ChevronDownIcon } from "@chakra-ui/icons"
+import me from "../../assets/images/me.png"
+
 
 const Job1 = ({expParallax}) => {
   const { mode } = useContext(ModeContext)
@@ -64,7 +66,7 @@ const Job1 = ({expParallax}) => {
         </Box>
         <Box boxSize={"sm"} align={"center"}>
           <AspectRatio maxW={300} ratio={1/2}>
-            <Image zIndex={"auto"} src="../src/assets/images/me.png" alt="Dannel Mulja" fit={"cover"} />
+            <Image zIndex={"auto"} src={me} alt="Dannel Mulja" fit={"cover"} />
           </AspectRatio>        
         </Box>    
       </Stack>
