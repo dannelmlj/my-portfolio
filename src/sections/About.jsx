@@ -1,7 +1,7 @@
 import { AspectRatio, Box, Heading, Image, Stack, Text } from "@chakra-ui/react"
 import '@fontsource/fira-code/500.css'
 import { useContext } from "react";
-import ModeContext from "../../contexts/ModeContext";
+import ModeContext from "../contexts/ModeContext";
 
 const About = () => {
   const { mode } = useContext(ModeContext);

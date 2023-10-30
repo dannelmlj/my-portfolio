@@ -1,9 +1,9 @@
 import { Box, Heading, Stack, Text } from "@chakra-ui/react"
-import Languages from "./Languages"
-import Technology from "./Technology"
-import Tools from "./Tools"
+import Languages from "../components/skills/Languages"
+import Technology from "../components/skills/Technology"
+import Tools from "../components/skills/Tools"
 import { useContext } from "react"
-import ModeContext from "../../contexts/ModeContext"
+import ModeContext from "../contexts/ModeContext"
 
 
 
@@ -17,9 +17,7 @@ const Skills = () => {
     height={"100vh"}
     width={"100wh"}
     direction={"row"}>
-    <Box>
-      <p>hello</p>
-    </Box>
+
     <Stack
       width={"60%"}>
       <Heading py={4} color={mode ? 'darkText' : 'lightText' } id="Skills">

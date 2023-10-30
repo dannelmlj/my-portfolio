@@ -1,6 +1,6 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import ModeContext from "../../contexts/ModeContext";
-import { IconButton, Switch } from "@chakra-ui/react";
+import { IconButton } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const ModeSwitch = () => {

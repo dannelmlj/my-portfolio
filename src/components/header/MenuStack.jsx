@@ -12,9 +12,9 @@ const MenuStack = () => {
     >
       <MenuItem to={1}>Skills</MenuItem>
       <MenuItem to={2}>Experience</MenuItem>
-      <MenuItem to="/">My Work</MenuItem>
-      <MenuItem to="/">Education</MenuItem>
-      <MenuItem to="/">Achievements</MenuItem>
+      <MenuItem to={3}>My Work</MenuItem>
+      <MenuItem to={4}>Education</MenuItem>
+      {/* <MenuItem to="/">Achievements</MenuItem> */}
 
     </Stack>
   )

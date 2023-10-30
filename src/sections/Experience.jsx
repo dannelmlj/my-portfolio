@@ -1,9 +1,7 @@
 import { useContext } from "react";
-import ModeContext from "../../contexts/ModeContext";
+import ModeContext from "../contexts/ModeContext";
 import { Box, Heading } from "@chakra-ui/react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Job1 from "./Job1";
-import Jobs from "./Jobs";
+import Jobs from "../components/experience/Jobs";
 
 const Experience = () => {
   const { mode } = useContext(ModeContext)

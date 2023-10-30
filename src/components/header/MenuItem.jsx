@@ -9,8 +9,6 @@ import { ParallaxContext } from "../../contexts/ParallaxContext";
 const MenuItem =  ({to, children}) => {
   const { mode } = useContext(ModeContext);
   const { parallax } = useContext(ParallaxContext)
-  console.log("par Dalem banget", parallax)
-  console.log("par banget", to)
 
   return (
     <Link onClick={() => parallax.current.scrollTo(to)}>

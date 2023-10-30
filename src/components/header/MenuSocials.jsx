@@ -1,4 +1,4 @@
-import { Icon, IconButton, Stack, Text } from "@chakra-ui/react"
+import { Icon, IconButton, Link, Stack, Text } from "@chakra-ui/react"
 import MenuItem from "./MenuItem";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { EmailIcon } from "@chakra-ui/icons";
@@ -15,9 +15,15 @@ const MenuSocials = () => {
       direction={['column', 'row', 'row', 'row']}
       pt={[4, 4, 0, 0]}
     >
-      <Icon as={BsGithub} color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
-      <Icon as={BsLinkedin} color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
-      <EmailIcon color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
+      <Link href="https://github.com/dannelmlj" isExternal>
+        <Icon as={BsGithub} color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
+      </Link>
+      <Link href="https://www.linkedin.com/in/dannel-mulja/" isExternal>
+        <Icon as={BsLinkedin} color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
+      </Link>
+      <Link href="mailto:dannelmuljaa@gmail.com" isExternal>
+        <EmailIcon color={mode ? 'darkText' : 'lightText' } w={7} h={7} />
+      </Link>
 
 
     </Stack>
