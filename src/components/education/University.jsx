@@ -62,7 +62,7 @@ const University = () => {
         </Stack>
         <Box boxSize={"md"} width={"40%"} align={"center"} py={8}>
           <AspectRatio maxW={600} ratio={2}>
-            <Image zIndex={"auto"} src="../public/cityu.jpg" alt="Dannel Mulja" fit={"cover"} />
+            <Image zIndex={"auto"} src="../src/assets/images/cityu.jpg" alt="Dannel Mulja" fit={"cover"} />
           </AspectRatio>        
         </Box>
       </Stack>

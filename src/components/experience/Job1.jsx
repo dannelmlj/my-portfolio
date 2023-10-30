@@ -64,7 +64,7 @@ const Job1 = ({expParallax}) => {
         </Box>
         <Box boxSize={"sm"} align={"center"}>
           <AspectRatio maxW={300} ratio={1/2}>
-            <Image zIndex={"auto"} src="../public/me.png" alt="Dannel Mulja" fit={"cover"} />
+            <Image zIndex={"auto"} src="../src/assets/images/me.png" alt="Dannel Mulja" fit={"cover"} />
           </AspectRatio>        
         </Box>    
       </Stack>
