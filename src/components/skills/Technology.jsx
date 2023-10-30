@@ -1,4 +1,4 @@
-import { Icon, IconButton, Stack, Text } from "@chakra-ui/react"
+import { Icon, Stack, Text } from "@chakra-ui/react"
 import { SiUbuntu } from "react-icons/si";
 import { useContext } from "react";
 import ModeContext from "../../contexts/ModeContext";

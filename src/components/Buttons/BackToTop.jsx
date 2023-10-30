@@ -1,7 +1,6 @@
-import { useContext } from "react";
-import ModeContext from "../../contexts/ModeContext";
+
 import { Flex, IconButton } from "@chakra-ui/react";
-import { ArrowUpIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
+import { ArrowUpIcon } from "@chakra-ui/icons";
 
 const BackToTop = ({parallax}) => {
   // const modeContext = useContext(ModeContext);

@@ -1,6 +1,6 @@
-import { Box, Button } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { useLocalStorage } from "@uidotdev/usehooks";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import { ModeProvider } from "../contexts/ModeContext";
 import Header from "./Header";
 import About from "./About";

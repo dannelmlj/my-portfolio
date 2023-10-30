@@ -1,6 +1,6 @@
 import { useContext, useRef } from "react";
 import ModeContext from "../../contexts/ModeContext";
-import { Box, Heading } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Job1 from "./Job1";
 import Job2 from "./Job2";

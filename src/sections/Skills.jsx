@@ -1,4 +1,4 @@
-import { Box, Heading, Stack, Text } from "@chakra-ui/react"
+import { Heading, Stack, Text } from "@chakra-ui/react"
 import Languages from "../components/skills/Languages"
 import Technology from "../components/skills/Technology"
 import Tools from "../components/skills/Tools"

@@ -1,5 +1,4 @@
-import { Icon, IconButton, Link, Stack, Text } from "@chakra-ui/react"
-import MenuItem from "./MenuItem";
+import { Icon, Link, Stack } from "@chakra-ui/react"
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { EmailIcon } from "@chakra-ui/icons";
 import { useContext } from "react";

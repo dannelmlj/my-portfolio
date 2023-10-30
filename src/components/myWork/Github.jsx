@@ -1,8 +1,8 @@
 import { useContext } from "react"
 import ModeContext from "../../contexts/ModeContext"
-import { Box, CircularProgress, CircularProgressLabel, Link, Progress, Stack, Text } from "@chakra-ui/react"
+import { Box, Link, Progress, Stack, Text } from "@chakra-ui/react"
 
-const Github = ({easy, medium, hard}) => {
+const Github = () => {
   const { mode } = useContext(ModeContext)
   return(
     <Stack

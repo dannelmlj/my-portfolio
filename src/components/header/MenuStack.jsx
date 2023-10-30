@@ -14,7 +14,6 @@ const MenuStack = () => {
       <MenuItem to={2}>Experience</MenuItem>
       <MenuItem to={3}>My Work</MenuItem>
       <MenuItem to={4}>Education</MenuItem>
-      {/* <MenuItem to="/">Achievements</MenuItem> */}
 
     </Stack>
   )

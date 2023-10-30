@@ -1,7 +1,7 @@
-import { Box, Divider, Flex, Stack } from "@chakra-ui/react";
-import { useContext, useState } from "react"
+import { Divider, Flex, Stack } from "@chakra-ui/react";
+import { useContext } from "react"
 import Logo from "../components/header/Logo";
-import ModeSwitch from "../components/header/ModeSwitch";
+import ModeSwitch from "../components/Buttons/ModeSwitch";
 import MenuStack from "../components/header/MenuStack";
 import MenuSocials from "../components/header/MenuSocials";
 import ModeContext from "../contexts/ModeContext";

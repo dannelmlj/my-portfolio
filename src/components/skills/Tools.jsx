@@ -1,4 +1,4 @@
-import { Icon, IconButton, Stack, Text } from "@chakra-ui/react"
+import { Icon, Stack, Text } from "@chakra-ui/react"
 import {
   SiGraphql,
   SiReact,

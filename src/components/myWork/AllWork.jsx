@@ -1,13 +1,9 @@
-import { useContext } from "react";
-import ModeContext from "../../contexts/ModeContext";
-import { Box, Heading, Stack } from "@chakra-ui/react";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { Stack } from "@chakra-ui/react";
 import LeetCode from "./Leetcode";
 import Github from "./Github";
 
 
 const AllWork = () => {
-  const { mode } = useContext(ModeContext)
   return(
     <Stack
       height={"70vh"}

@@ -1,4 +1,4 @@
-import { Icon, IconButton, Stack, Text } from "@chakra-ui/react"
+import { Icon, Stack, Text } from "@chakra-ui/react"
 import { SiCplusplus, SiPython, SiJavascript, SiTypescript } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { useContext } from "react";

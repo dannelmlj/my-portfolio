@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Heading, Image, Stack } from "@chakra-ui/react"
+import { Heading, Stack } from "@chakra-ui/react"
 
 import { useContext } from "react"
 import ModeContext from "../contexts/ModeContext"
@@ -23,11 +23,6 @@ const Education = () => {
       </Heading>
       <University/>
     </Stack>
-    {/* <Box boxSize={"sm"} align={"center"}>
-      <AspectRatio maxW={1000} ratio={2}>
-        <Image zIndex={"auto"} src="../public/cityu.jpg" alt="Dannel Mulja" fit={"cover"} />
-      </AspectRatio>        
-    </Box> */}
   </Stack>
   )
 }
